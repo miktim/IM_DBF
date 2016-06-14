@@ -2,6 +2,6 @@
 
 IMport DBF/MEMO from BLOBs. Field types supported: C,N,D,L,M,int32 packed in C4.
 
-Trick: pass in pl/sql dbf tables and memos as a zip-archive. 
+Trick: pass database (DBFs and memos) in pl/sql as a zip-archive. 
        Use AS_ZIP package to extract data.
        http://technology.amis.nl/wp-content/uploads/2010/06/as_zip7.txt 
