@@ -1,6 +1,6 @@
 # IM_DBF rev50417
 
-IMport DBF/MEMO from BLOBs. Field types supported: C,N,D,L,M,int32 packed in C4.
+IMport dBase DBF/MEMO from BLOBs. Field types supported: C,N,D,L,M,int32 packed in C4.
 
 Trick: pass database (DBFs and memos) in pl/sql as a zip-archive. 
        Use AS_ZIP package to extract data.
